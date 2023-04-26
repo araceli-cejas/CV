@@ -112,6 +112,9 @@ ul{                           /*muestra los botones con la disposición horizont
       .contenedor-img-texto{
         flex-direction: row;
       }
+    footer{
+        position: relative;
+      }
       
       
   
