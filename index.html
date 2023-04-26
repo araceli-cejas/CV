@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <title> Curriculum vitae </title>
 </head>
 <body>
-    <!--ENCABEZADO-->
     <header>
-        <nav >
+        <nav>
+            <input type="checkbox" id="menu">  
+            <label for="menu"> ☰ </label>
             <ul>
                 <li ><a href="index.html" >Datos Personales</a></li>
                 <li><a href="estudios.html" >Estudios</a></li>
@@ -21,34 +22,31 @@
         </nav>
         <h1>Curriculum Vitae</h1>
     </header>
-
     <main>
         <div class="contenedor-img-texto">
             <img class="imagen" src="img/foto.jpg" alt="fotoaraceli">
-            <div class="contenedor-texto">
-                <fieldset >
-                    <legend ><h2>Datos personales</h2></legend>
-                    <ul>
-                        <p>Nombre: Araceli Melina Cejas </p>
-                        <p>Edad: 21 años </p>
-                        <p>Fecha de nacimiento: 01-11-2001</p>    
-                        <p>Teléfono: 11-38810520</p>    
-                        <p>Dirección: Av. Directorio 2147, Argentina</p>     
-                        <p>Email: <a href="mailto:cejasaraceli@gmail.com">cejasaraceli@gmail.com</a></p>  <!--HIPERVINCULO PARA MANDAR EMAIL-->
-                    </ul>
-                    <br>
-                </fieldset>
+            <div class="contenedor-texto">  
+                <legend ><h2>Datos Personales</h2></legend>
+                          
+                 <div class="contenedor-datos">
+                    <p>Nombre: Araceli Melina Cejas </p>
+                    <p>Edad: 21 años </p>
+                    <p>Fecha de nacimiento: 01-11-2001</p>    
+                    <p>Teléfono: 11-38810520</p>    
+                    <p>Dirección: Av. Directorio 2147, Argentina</p>     
+                    <p>Email: <a href="mailto:cejasaraceli@gmail.com">cejasaraceli@gmail.com</a></p>  <!--HIPERVINCULO PARA MANDAR EMAIL-->
+                </div>
                 <br>
-                
-                <fieldset >
-                    <legend ><h2>Objetivos profesionales</h2></legend>
-                    <ul>
-                        <p>Desarrollarme de formapersonal y profesional.</p>
-                        <p>Emplear y utilizar los conocimientos teóricos y prácticos aprendidos durante mi formación universitaria. </p>
-                        <br>
-                    </ul>
-                </fieldset>       
+                   <!-- Objetivos profesionales -->
+            
+                <legend ><h2>Objetivos Profesionales</h2></legend>
+                <br>
+                <div class="contenedor-intereses">
+                    <p>° Desarrollarme de forma personal y profesional.</p>
+                    <p>° Emplear y utilizar los conocimientos teóricos y prácticos aprendidos durante mi formación universitaria.</p>
+                </div>      
             </div>
+        
         </div>
     </main>
 

@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <title> Curriculum vitae </title>
 </head>
 <body>
-    <!--ENCABEZADO-->
     <header>
-        <nav >
+        <nav>
+            <input type="checkbox" id="menu">  
+            <label for="menu"> ☰ </label>
             <ul>
                 <li ><a href="index.html" >Datos Personales</a></li>
                 <li><a href="estudios.html" >Estudios</a></li>
@@ -21,32 +22,26 @@
         </nav>
         <h1>Curriculum Vitae</h1>
     </header>
-
     <main>
         <div class="contenedor-img-texto">
-            <img class="imagen" src="img/conocimiento.jpg" alt="fotoconociento">
-            <div class="contenedor-texto">
-                <fieldset >
-                    <legend ><h2>Conocimientos</h2></legend>
-                    <ul>
-                        <p>Microsoft Office Avanzado</p>
-                        <p> C++ </p>
-                        <p> Python</p>    
-                        <p>Visual Basic</p>    
-                        <p> MySQL</p>     
-                        <p> C#</p>
-                        <p> PHP</p>
-                        <p> HTML</p>
-                        <p> CSS</p>
-                    </ul>
-                </fieldset>
-                
-                <fieldset >
-                    <legend ><h2>Idiomas</h2></legend>
-                    <p>Español: Lengua materna </p>
-                    <p>Ingles: Nivel intermedio</p>
-                    
-                </fieldset>       
+            <img class="imagen" src="img/conocimiento.jpg" alt="fotoaraceli">
+            <div class="contenedor-texto">  
+                <legend ><h2 class="conocimiento">Conocimientos</h2></legend>
+                <div class="contenedor-intereses">
+                    <p>° Microsoft Office Avanzado </p>
+                    <p>° C++ </p>
+                    <p>° Python </p>
+                    <p>° Visual Basic </p>
+                    <p>° MySQL </p>
+                    <p>° C# </p>
+                    <p>° PHP </p>
+                    <p>° HTML </p>
+                    <p>° CSS </p>
+                <legend ><h2 class="conocimiento">Idiomas</h2></legend>
+                <div class="contenedor-intereses">
+                    <p>Español: Lengua materna  </p>
+                    <p>Ingles: Nivel intermedio</p>  
+                </div>     
             </div>
         </div>
     </main>
